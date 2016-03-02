@@ -23,7 +23,7 @@ public class ConsultaTwitter {
     /**
      * @param args the command line arguments
      */
-    /**
+  
     public static void main(String[] args) {
        //Establecemos la conexión a la base de datos "Twitter" de Mongo
        MongoClient cli = new MongoClient("localhost", 27017);
@@ -43,5 +43,5 @@ public class ConsultaTwitter {
        //Cerramos el cliente
        cli.close();
     }
-    **/
+ 
 }

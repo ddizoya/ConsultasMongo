@@ -18,7 +18,7 @@ import org.bson.Document;
  * @author oracle
  */
 public class ConsultaScores {
-/**
+
     public static void main(String[] args) {
         //Establecemos la conexión a la base de datos "Twitter" de Mongo
         MongoClient cli = new MongoClient("localhost", 27017);
@@ -44,5 +44,5 @@ public class ConsultaScores {
         cli.close();
 
     }
-*/
+
 }
